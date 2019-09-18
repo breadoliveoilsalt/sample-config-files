@@ -8,6 +8,7 @@ set smartindent
 set smartcase "should search case insensitive when search terms not cap'd
 set ignorecase
 syntax on
+set backspace=indent,eol,start " to deal with delete key not working properly
 " double quote, no closing quote, is how you comment here
 " set mouse=a 
 set nocp
